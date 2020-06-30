@@ -36,12 +36,18 @@ Q7. Why are some of the CRUD actions represented by instance methods, and others
 
 Q8. What type of data structure is returned by calls to `db.exec_prepared()`? In the `save` method, how do we access the id from the returned data structure?
 
+- 
+
 Q9. Why do we use prepared statements when performing database operations?
+
+- We used prepared statements as certain constant values are substituted during each execution so makes it more simple
 
 ## Extension Questions
 
 Look at the `find_by_id` and `find_by_address` methods in the `Property` class.
 
 Q10. What do they take in as their arguments?
+
+- The first takes in the ID as the argument and the second takes in the address as the argument.
 
 Q11. What are their return values?
