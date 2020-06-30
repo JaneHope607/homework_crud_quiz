@@ -8,11 +8,15 @@ In our Property Tracker application:
 
 Q1. Where are we instantiating instances of the `Property` class?
 
-
+- In console.rb file
 
 Q2. Where are we defining the SQL that enables us to save the ruby `Property` object into the database?
 
+- In the SQL file created in the DB folder
+
 Q3. In `console.rb`, which lines modify the database?
+
+
 
 Q4. Why do we not define the id of a `Property` object at the point we instantiate it (‘new it up’)?
 
