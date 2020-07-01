@@ -39,7 +39,7 @@ Q7. Why are some of the CRUD actions represented by instance methods, and others
 
 Q8. What type of data structure is returned by calls to `db.exec_prepared()`? In the `save` method, how do we access the id from the returned data structure?
 
-- Returns an array of hashes - can access if by index [0] and then [id]
+- Returns an array of hashes - the id is returned on line with [0]['id'].to_i. This allows us to access the id of the first element
 
 Q9. Why do we use prepared statements when performing database operations?
 
