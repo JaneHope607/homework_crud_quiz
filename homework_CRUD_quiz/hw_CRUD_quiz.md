@@ -16,10 +16,9 @@ Q2. Where are we defining the SQL that enables us to save the ruby `Property` ob
 
 Q3. In `console.rb`, which lines modify the database?
 
-- Property.delete_all()
-delete()
-save()
-update()
+- Property.delete_all() - line 4
+delete() - line 33
+save() - lines 13, 22, 31
 
 Q4. Why do we not define the id of a `Property` object at the point we instantiate it (‘new it up’)?
 
